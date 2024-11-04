@@ -1,0 +1,83 @@
+.task-manager {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.task-manager h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.task-manager form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-manager form input,
+.task-manager form textarea,
+.task-manager form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.task-manager form textarea {
+  min-height: 100px;
+}
+
+.task-manager form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.task-manager form button:hover {
+  background-color: #3e8e41; /* Darker green */
+}
+
+.task-manager h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.task-manager ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-manager li {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.task-manager li h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.task-manager li p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.task-manager li button {
+  background-color: #f00; /* Red */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-manager li button:hover {
+  background-color: #c00; /* Darker red */
+}
